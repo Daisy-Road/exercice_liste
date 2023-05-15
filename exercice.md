@@ -4,7 +4,7 @@ Chaque musique aura la forme suivante
 
 ```c
 typedef struct _Track Track;
-struct Track {
+struct _Track {
 	int id;
 	char name[21];
 	int like; //boolean donc soit 1 soit 0
